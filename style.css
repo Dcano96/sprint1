@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,700;1,800&family=DM+Sans:wght@400;700&family=Fraunces:opsz,wght@9..144,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(27, 66%, 92%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 18px;
+}
+
+.section .card_sec1 {
+  background-color: hsl(10, 79%, 65%);
+  width: 320px;
+  height: 69px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  color: hsl(27, 66%, 92%);
+  margin-bottom: 15px;
+}
+
+.textos_header h2 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+.section .sec_2 {
+  background-color: hsl(33, 100%, 98%);
+  width: 320px;
+  height: 300px;
+  border-radius: 10px;
+}
+.section .sec_2 .price {
+  margin-left: 95px;
+  margin-top: 20px;
+  background-color: hsl(25, 47%, 15%);
+  width: 40px;
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+}
+
+.section .sec_2 .price_2 {
+  margin-left: 145px;
+  background-color: hsl(25, 47%, 15%);
+  color: #fff;
+  width: 40px;
+}
+
+.section .sec_2 h3 {
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.section .sec_2 .barras {
+  display: flex;
+  justify-content: space-around;
+}
+
+.section .sec_2 .barras .monday {
+  width: 25px;
+  height: 26px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 50px;
+}
+
+.section .sec_2 .barras .Tuesday {
+  width: 25px;
+  height: 50px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 27px;
+}
+
+.section .sec_2 .barras .Wednesday {
+  width: 25px;
+  height: 65px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 13px;
+}
+
+.section .sec_2 .barras .Thursday {
+  width: 25px;
+  height: 40px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 39px;
+}
+
+.section .sec_2 .barras .friday {
+  width: 25px;
+  height: 35px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 45px;
+}
+
+.section .sec_2 .barras .saturday {
+  width: 25px;
+  height: 50px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 30px;
+}
+
+.section .sec_2 .barras .sunday {
+  width: 25px;
+  height: 35px;
+  background-color: hsl(10, 79%, 65%);
+  margin-top: 45px;
+}
+
+.section .sec_2 .barras .Wednesday:hover {
+  background-color: hsl(186, 34%, 60%);
+  cursor: pointer;
+}
+
+.section .sec_2 .barras .Thursday:hover {
+  background-color: hsl(13, 71%, 80%);
+  cursor: pointer;
+}
+
+.days_bars {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 10px;
+}
+
+.days_bars div h6 {
+  margin-right: 10px;
+  text-align: center;
+}
+
+.days_bars .mon h6 {
+  padding-left: 4px;
+}
+
+.days_bars .tue h6 {
+  padding-right: 6px;
+}
+.days_bars .wed h6 {
+  padding-right: 6px;
+}
+
+.days_bars .thu h6 {
+  padding-right: 10px;
+}
+.days_bars .fri h6 {
+  padding-right: 4px;
+}
+
+.days_bars .sat h6 {
+  padding-right: 2px;
+}
+
+.days_bars .sun h6 {
+  padding-left: 5px;
+}
+
+.section .sec_2 .final_text {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.final_text_sect-2 {
+  margin-top: 14px;
+}
